@@ -1,6 +1,6 @@
 '''
 PSU Pra-bi-da Internet Auto Log in.
-Version 1.0.2 | 01/09/2019
+Version 1.0.3 | 01/09/2019
 Payungsak Klinchampa | CoE-PSU
 pao@paov6.network
 '''
@@ -14,9 +14,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-scriptVersion = 'v1.0.2'
+scriptVersion = 'v1.0.3'
 PSU_URL = 'https://cp-xml-40g.psu.ac.th:6082/php/uid.php'
-alertToLine = True
+alertToLine = False ###Set default config to False.
 
 def sendToLineNotify():
 	encoding = 'utf-8'
