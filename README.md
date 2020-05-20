@@ -4,11 +4,11 @@
 
 
 ### How to run
-1. Clone this project.
-2. Install require package.
+1. Clone this project and make sure python3 and pip3 already installed.
+2. Install require package by $sudo pip3 install -r requirements.txt.
 3. Modify .env file to your PSU Passport credential.
 4. Run this script by $python3 prabida-auto-login.py
-5. Use crontab for auto login. 
+5. Use crontab for auto login.
 
 ### Tip
 - Set alertToLine = False for not aleart to Line Notify.
