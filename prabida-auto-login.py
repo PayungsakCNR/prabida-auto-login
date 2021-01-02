@@ -2,7 +2,7 @@
 PSU Pra-bi-da Internet Auto Log in.
 Version 1.0.3 | 01/09/2019
 Payungsak Klinchampa | CoE-PSU
-pao@paov6.network
+pao@payungsakpk.xyz
 '''
 
 import os
